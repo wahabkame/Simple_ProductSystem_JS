@@ -1,0 +1,126 @@
+body {
+    font-family: 'segoe ui light';
+    background-color: #f2f2f2;
+}
+
+i {
+    cursor: pointer;
+}
+
+#successProductAlert {
+    display: none;
+}
+
+
+/***********************************************/
+.myTextColor,
+.activeLink {
+    color: blue !important;
+}
+
+.myText {
+    font-family: 'Luckiest Guy', cursive;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: blue !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: blue;
+}
+
+.bg-light {
+    background-color: #f8f9fb;
+}
+
+
+/*main header*/
+#mainHeader {
+    height: 100vh;
+    overflow: auto;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 450px 360px;
+}
+
+.my-Container {
+    width: 85%;
+}
+
+.abstract img {
+    width: 450px;
+    height: 360px;
+}
+
+.marginTop {
+    margin-top: 3rem;
+}
+
+.caption span {
+    cursor: pointer;
+}
+
+.caption h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.caption a {
+    color: #333;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+.caption a:hover {
+    color: blue
+}
+
+
+
+/***********************************/
+#searchItem {
+    position: relative;
+}
+
+.mySearch {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+/*****************************************/
+#productHeader {
+    /*background-image: url(../images/abstract.png);*/
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 450px 360px;
+}
+
+/****************contact page***********/
+.myContactAlert,
+.myContactdangerAlert {
+    display: none;
+}
+
+/**************RESPONSIVE***********/
+@media only screen and (max-width:767px) {
+    .caption a {
+        color: #333;
+        padding: 15px;
+        text-decoration: none;
+        transition: all .4s;
+    }
+
+    .caption a:hover {
+
+        background-color: rgba(255, 255, 255, .5);
+        border-radius: 15px;
+        color: blue;
+    }
+}
